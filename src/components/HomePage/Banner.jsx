@@ -7,8 +7,8 @@ import Image from 'next/image';
 const Banner = () => {
     return (
         <div className='w-full bg-background'>
-            <div className="max-w-screen-2xl mx-auto  flex items-center justify-center ">
-                <div className='relative flex flex-col w-full px-0 md:px-10 lg:px-0  lg:w-9/12 h-screen  space-y-5 pt-[90px] md:pt-[150px]'>
+            <div className="max-w-screen-2xl mx-auto  flex items-center justify-center  h-screen md:h-[700px] lg:h-[911px]">
+                <div className='relative flex flex-col w-full px-0 md:px-10 lg:px-0  lg:w-9/12   space-y-5 pt-[90px] md:pt-[150px] h-screen md:h-[700px] lg:h-[911px]'>
                     <h1 className='text-center text-button text-5xl md:text-6xl lg:text-[120px] font-semibold leading-[1] z-20'>Mortgages <br /> made simple</h1>
                     <div className="flex items-center flex-col md:flex-row justify-between pt-0 md:pt-[100px]">
                         <div className='z-20'>
@@ -46,7 +46,7 @@ const Banner = () => {
                             <span>4.6 Stars | 3177 Google reviews</span>
                         </div>
                     </div>
-                    <Image className='absolute w-[95%] md:w-[55%] lg:w-[40%] bottom-[0%]  md:left-[30%] ' src={`/phone.png`} alt='' width={1080} height={1080} />
+                    <Image className='absolute w-[80%] md:w-[35%] lg:w-[40%] bottom-[0%]  md:left-[30%] ' src={`/phone.png`} alt='' width={1080} height={1080} />
                 </div>
             </div>
         </div>
