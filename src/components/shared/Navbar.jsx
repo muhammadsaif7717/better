@@ -3,9 +3,11 @@ import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { MdCall } from "react-icons/md";
 import { IoMenuSharp } from "react-icons/io5";
+import { usePathname } from 'next/navigation';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const pathName= usePathname();
 
   useEffect(() => {
     const handleScroll = () => {

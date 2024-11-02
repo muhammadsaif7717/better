@@ -16,10 +16,11 @@ const Stories = () => {
             <div className='flex flex-col items-center justify-center md:justify-start md:items-start p-8 space-y-5 w-full md:w-1/2 '>
                 <h1 className='w-full text-4xl md:text-5xl lg:text-7xl font-semibold'>Find out why we’re better.</h1>
                 <div>
-                    <button className="bg-background rounded-full text-white hover:bg-transparent hover:text-white border-none px-28 md:px-14 py-5 w-full md:w-auto mx-auto">See all our stories</button>
+                    <button className="bg-background rounded-full text-white hover:bg-[#27793c]
+                     hover:text-white border-none px-28 md:px-14 py-5 w-full md:w-auto mx-auto">See all our stories</button>
                 </div>
                 <div className='flex gap-2 items-center text-black justify-center mt-2'>
-                    <FaStar className='text-[#23AD7A]' />
+                    <FaStar className='text-[#51d1a2]' />
                     <span className='font-semibold'>Trustpilot</span>
                     <span className='font-semibold text-gray-400'>Excellent 4.4</span>
                     <span className=''>out of 5</span>
