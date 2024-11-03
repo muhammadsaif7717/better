@@ -1,5 +1,6 @@
 'use client'
 import Image from 'next/image';
+import Link from 'next/link';
 import React, { useState } from 'react';
 import { FaStar } from 'react-icons/fa';
 
@@ -16,8 +17,8 @@ const Stories = () => {
             <div className='flex flex-col items-center justify-center md:justify-start md:items-start p-8 space-y-5 w-full md:w-1/2 '>
                 <h1 className='w-full text-4xl md:text-5xl lg:text-7xl font-semibold'>Find out why we’re better.</h1>
                 <div>
-                    <button className="bg-background rounded-full text-white hover:bg-[#27793c]
-                     hover:text-white border-none px-28 md:px-14 py-5 w-full md:w-auto mx-auto">See all our stories</button>
+                    <Link href={`/about-us`} className="bg-background rounded-full text-white hover:bg-[#27793c]
+                     hover:text-white border-none px-28 md:px-14 py-5 w-full md:w-auto mx-auto">See all our stories</Link>
                 </div>
                 <div className='flex gap-2 items-center text-black justify-center mt-2'>
                     <FaStar className='text-[#51d1a2]' />
