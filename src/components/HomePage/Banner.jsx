@@ -3,6 +3,7 @@ import { MdOutlineTimer } from 'react-icons/md';
 import { FcGoogle } from "react-icons/fc";
 import { FaStarHalfAlt, FaStar } from "react-icons/fa";
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Banner = () => {
     return (
@@ -12,8 +13,8 @@ const Banner = () => {
                     <h1 className='text-center text-button text-5xl md:text-6xl lg:text-[120px] font-semibold leading-[1] z-20'>Mortgages <br /> made simple</h1>
                     <div className="flex items-center flex-col md:flex-row justify-between pt-0 md:pt-[100px]">
                         <div className='z-20'>
-                            <button className=" bg-button rounded-full text-black hover:bg-transparent hover:text-white border-none px-28 md:px-14 py-5  z-20">Start my approval</button>
-                            <div className='flex gap-2 items-center text-white justify-center mt-2'>
+                            <Link href={'/start'} className=" bg-button rounded-full text-black hover:bg-transparent hover:text-white border-none px-28 md:px-14 py-5  z-20">Start my approval</Link>
+                            <div className='flex gap-2 items-center text-white justify-center mt-7'>
                                 <MdOutlineTimer />
                                 <span className='z-20'>3 min | No credit impact</span>
                             </div>
